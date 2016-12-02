@@ -6,39 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
-body {
-  font-family: 'Raleway', sans-serif;
-}
-
-
 nav ul a,
 nav .brand-logo {
-  color: #263238;
-}
-
-.nav-wrapper {
-    padding: 0 50px;
+  color: #444;
 }
 
 p {
   line-height: 2rem;
-
-}
-
-#msg-intro1 {
-  font-family: 'Gloria Hallelujah', cursive;
-  text-align:center;
-  text-shadow: 2px 2px 4px #ff0000;
-  font-size: 3em;
-
-  
-}
-
-#msg-intro2 {
-  font-family: 'Gloria Hallelujah', cursive;
-  text-align:center;
-  text-shadow: 2px 2px 4px #ff0000;
-  
 }
 
 .button-collapse {
@@ -51,23 +25,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-
-.section-intro {
-    height: 100%;
+  .parallax-container .section {
     width: 100%;
   }
-
-.header{
-    margin-top: : 5%;
-  }
-
-.header-subtitle{
-    margin-top: : 10%;
-    font-size: 1.5em;
-    text-shadow: 2px 2px 4px #ff0000;
-  }
-
-
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -83,14 +43,6 @@ p {
   #index-banner .section {
     top: 0;
   }
-
-  .nav-wrapper {
-    padding: 0 10px;
-}
-}
-
-.col-servizi{
-  margin-top: 60px;
 }
 
 .icon-block {
@@ -100,30 +52,6 @@ p {
   font-size: inherit;
 }
 
-.section-mission{
-    height: 100%;
-    width: 100%;
-  }
-
-.section-contattaci{
-    height: 100%;
-    width: 100%;
-  }
-.btn-registrazione{
-  width: 100%;
-}
-
 footer.page-footer {
   margin: 0;
-  background-color: #EF5350;
 }
-
-.social-icon{
-  font-size: 1.5em;
-  color: #fff;
-  padding-left: 0px;
-  padding-right: 20px;
-}
-.social-icon:hover {
-  color: #263238;
-  };
