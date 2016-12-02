@@ -25,11 +25,22 @@ p {
 
 }
 
-.intro {
+#msg-intro1 {
   font-family: 'Gloria Hallelujah', cursive;
   text-align:center;
   text-shadow: 2px 2px 4px #ff0000;
+  font-size: 3em;
+
+  
 }
+
+#msg-intro2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align:center;
+  text-shadow: 2px 2px 4px #ff0000;
+  
+}
+
 .button-collapse {
   color: #26a69a;
 }
@@ -40,6 +51,7 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
+
 .section-intro {
     height: 100%;
     width: 100%;
